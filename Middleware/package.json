@@ -1,0 +1,6 @@
+{
+  "main": "../dist/Middleware.cjs",
+  "module": "../dist/Middleware.js",
+  "types": "../dist/Middleware.d.ts",
+  "sideEffects": false
+}
