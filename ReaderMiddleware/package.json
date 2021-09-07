@@ -1,0 +1,6 @@
+{
+  "main": "../dist/ReaderMiddleware.cjs",
+  "module": "../dist/ReaderMiddleware.js",
+  "types": "../dist/ReaderMiddleware.d.ts",
+  "sideEffects": false
+}

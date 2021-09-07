@@ -38,4 +38,22 @@ export default [
       sourcemapExcludeSources: true,
     },
   },
+  {
+    input: 'dist/ReaderMiddleware.js',
+    external: [
+      'fp-ts/function',
+      'fp-ts/Either',
+      'fp-ts/TaskEither',
+      'hyper-ts/lib/Middleware',
+      'hyper-ts/lib/ReaderMiddleware',
+      'hyper-ts',
+    ],
+    plugins: [sourcemaps()],
+    output: {
+      file: 'dist/ReaderMiddleware.cjs',
+      format: 'cjs',
+      sourcemap: true,
+      sourcemapExcludeSources: true,
+    },
+  },
 ];
