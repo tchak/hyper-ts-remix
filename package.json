@@ -58,12 +58,17 @@
     "./Middleware": {
       "import": "./dist/Middleware.js",
       "require": "./dist/Middleware.cjs"
+    },
+    "./ReaderMiddleware": {
+      "import": "./dist/ReaderMiddleware.js",
+      "require": "./dist/ReaderMiddleware.cjs"
     }
   },
   "files": [
     "src",
     "dist",
     "Middleware",
+    "ReaderMiddleware",
     "!dist/**/*.d.ts.map"
   ],
   "engines": {
