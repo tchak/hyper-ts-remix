@@ -51,8 +51,14 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./Middleware": {
+      "import": "./dist/Middleware.js",
+      "require": "./dist/Middleware.cjs"
+    }
   },
   "files": [
     "src",
