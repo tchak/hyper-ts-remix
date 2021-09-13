@@ -1,6 +1,6 @@
 {
   "name": "hyper-ts-remix",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "author": "Paul Chavard <github@paul.chavard.net>",
   "license": "MIT",
   "devDependencies": {
