@@ -32,10 +32,10 @@
     "prepare": "tsc && rollup -c rollup.config.js"
   },
   "peerDependencies": {
-    "@remix-run/dev": "^0.18.0",
-    "@remix-run/node": "^0.18.0",
-    "@remix-run/react": "^0.18.0",
-    "remix": "^0.18.0"
+    "@remix-run/dev": "^0.19.2",
+    "@remix-run/node": "^0.19.2",
+    "@remix-run/react": "^0.19.2",
+    "remix": "^0.19.2"
   },
   "dependencies": {
     "fp-ts": "^2.11.4",
