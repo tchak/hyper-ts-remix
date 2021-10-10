@@ -1,6 +1,6 @@
 {
   "name": "hyper-ts-remix",
-  "version": "0.19.0",
+  "version": "0.19.1",
   "author": "Paul Chavard <github@paul.chavard.net>",
   "license": "MIT",
   "devDependencies": {
@@ -29,8 +29,7 @@
     "lint": "npm-run-all lint:*",
     "lint:eslint": "eslint .",
     "lint:tsc": "tsc --noEmit",
-    "prepare": "tsc && rollup -c rollup.config.js",
-    "postinstall": "remix setup"
+    "prepare": "tsc && rollup -c rollup.config.js"
   },
   "peerDependencies": {
     "@remix-run/dev": "^0.18.0",
