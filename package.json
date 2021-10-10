@@ -4,9 +4,12 @@
   "author": "Paul Chavard <github@paul.chavard.net>",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^16.7.10",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
+    "@remix-run/dev": "^0.19.2",
+    "@remix-run/node": "^0.19.2",
+    "@remix-run/react": "^0.19.2",
+    "@types/node": "^16.10.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-filenames": "^1.3.2",
@@ -15,15 +18,12 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.3.2",
-    "release-it": "^14.11.5",
-    "rollup": "^2.56.3",
+    "prettier": "^2.4.1",
+    "release-it": "^14.11.6",
+    "remix": "^0.19.2",
+    "rollup": "^2.58.0",
     "rollup-plugin-sourcemaps": "^0.6.3",
-    "typescript": "^4.4.2",
-    "@remix-run/dev": "^0.18.0",
-    "@remix-run/node": "^0.18.0",
-    "@remix-run/react": "^0.18.0",
-    "remix": "^0.18.0"
+    "typescript": "^4.4.3"
   },
   "scripts": {
     "lint": "npm-run-all lint:*",
@@ -39,9 +39,9 @@
     "remix": "^0.18.0"
   },
   "dependencies": {
-    "fp-ts": "^2.11.1",
+    "fp-ts": "^2.11.4",
     "fp-ts-contrib": "^0.1.26",
-    "hyper-ts": "^0.7.1"
+    "hyper-ts": "^0.7.2"
   },
   "prettier": {
     "singleQuote": true
@@ -72,11 +72,11 @@
     "!dist/**/*.d.ts.map"
   ],
   "engines": {
-    "node": ">= 12.*"
+    "node": ">= 14.*"
   },
   "volta": {
-    "node": "14.17.5",
-    "yarn": "1.22.10"
+    "node": "14.18.0",
+    "yarn": "1.22.15"
   },
   "release-it": {
     "npm": {
